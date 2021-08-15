@@ -11,7 +11,7 @@ Only Scratch 2.0 projects are supported right now but Scratch 3.0 support is pos
 * pathlib
 
 # Project Status
-As of the GitHub release in *August 2021* Graze can only convert over sprites and sounds, and is in the beginning stages of converting code. Check **changelog.txt** frequently as development continues. **To check to see if your Scratch project is compatible**, also check **compatibilitystatus.txt** for the status of Scratch block support in Graze.
+As of the GitHub release in *August 2021* Graze can only convert over sprites and sounds and establishing variables, and is in the beginning stages of converting code. Check **changelog.txt** frequently as development continues. **To check to see if your Scratch project is compatible**, also check **compatibilitystatus.txt** for the status of Scratch block support in Graze.
 
 # Using Graze
 
