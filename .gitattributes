@@ -1,1 +1,2 @@
-*.nsis linguist-detectable=false
+*.NSIS linguist-detectable=false
+*.xml linguist-detectable=true
