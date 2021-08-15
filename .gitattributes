@@ -1,5 +1,1 @@
 *.nsi   linguist-detectable=false
-*.gmx   linguist-language=XML
-*.gml   linguist-language=GameMaker
-*.gmx   linguist-detectable=true
-*.gml   linguist-detectable=true
