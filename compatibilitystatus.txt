@@ -1,0 +1,24 @@
+This is where I'd put my compatibility for Scratch blocks in Graze currently...IF I HAD ANY >:C
+
+(Last updated 8/15/21)
+
+[Motion]
+
+[Looks]
+
+[Sound]
+
+[Events]
+
+[Control]
+When Green Flag Clicked - [Nope] (but let's do this first)
+
+[Sensing]
+
+[Operators]
+
+[Variables]
+
+[My Blocks]
+
+[Pen]

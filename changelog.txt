@@ -1,0 +1,8 @@
+Alpha 0.1 (8/15/21):
+[Changes]
+* Put the project up on GitHub! :D
+* Turned the beginning of the code for carrying over Scratch code into comments 'cuz it's a bit not-work-y right now.
+[Future Plans]
+* The beginnings of Scratch code support of course
+* De-YandereDev-ing my code and sorting it into functions so the code bullies don't laugh at me
+* What the hell are we gonna do for Vector sprites (just convert them to images?? I don't think GameMaker can take vectors other than .swf)
