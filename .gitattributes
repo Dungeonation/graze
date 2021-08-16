@@ -1,2 +1,3 @@
 *.nsi   linguist-detectable=false
 *.gmx   linguist-detectable=true
+*.gmx   linguist-language=XML
