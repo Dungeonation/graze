@@ -1,1 +1,2 @@
 *.nsi   linguist-detectable=false
+*.gmx   linguist-detectable=true
