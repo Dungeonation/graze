@@ -16,7 +16,7 @@ As of the GitHub release in *August 2021* Graze can only convert over sprites an
 # Using Graze
 
 First off, [download Python](https://www.python.org/) and make sure you have the libraries needed installed from the command line ([Here's how to do that](https://docs.python.org/3/installing/index.html) if you're a novice). You'll also need GameMaker Studio 1.4 or higher of course.  
-Now download this repository and put it all in its own folder so you don't screw up any of your other files (this tool uses file manipulation, moving, deleting, etc). *In Graze's early stage, check for updates here!*  
+Now download this repository and put it all in its own folder so you don't screw up any of your other files. This tool uses file manipulation, moving, deleting, etc. *(In Graze's early stage, check for updates on GitHub!)*  
 A fresh download has the empty GameMaker project folder unzipped in the main folder which Graze will refer to. But for *future conversions*, delete or move that project folder, and within the **blank gamemaker template** folder, unzip the .zip into the main folder.
 ###### GrazeConvert.py  
 Running this in Python immediately begins the conversion process, and runs until finished or encountering an error, then prompting you to press any key to halt the program. *Don't run it if you're not ready!*  
