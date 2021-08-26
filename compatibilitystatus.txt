@@ -1,8 +1,7 @@
-This is where I'd put my compatibility for Scratch blocks in Graze currently...IF I HAD ANY >:C
-
-(Last updated 8/15/21)
+(Last updated 8/26/21)
 
 [Motion]
+Go To X+Y
 
 [Looks]
 
@@ -11,7 +10,7 @@ This is where I'd put my compatibility for Scratch blocks in Graze currently...I
 [Events]
 
 [Control]
-When Green Flag Clicked - [Nope] (but let's do this first)
+When Green Flag Clicked
 
 [Sensing]
 

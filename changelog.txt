@@ -1,3 +1,15 @@
+Alpha 0.1.1 (8/26/21):
+[Changes]
+* CODE SUPPORT BABY!!1
+Only two blocks supported right now but the functionality is THERE
+for adding more blocks!
+* Changed around the GameMaker project template a little I think?
+[Future Plans]
+* Add moar blocks!
+* can we optimize this code??? *thinking emoji*
+* I have an idea for Vector (.svg) sprites
+
+
 Alpha 0.1 (8/15/21):
 [Changes]
 * Put the project up on GitHub! :D

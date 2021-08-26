@@ -12,7 +12,6 @@
     <script>scripts\establishVariables.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_test</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_stage</room>
