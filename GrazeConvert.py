@@ -23,13 +23,14 @@ def add_to_script():
             greenflag += codetoadd
 def convert_block():
     global codetoadd
+    global writingin
     codetoadd = ""
     #gotta figure out how to do this block lmao
     #if currentblock == 'doRepeat':
     #    repeatfor = int(AllScripts[codeparse+1])
     if currentblock == 'whenGreenFlag':
-        global writingin
         writingin = "whenGreenFlag"
+        codetoadd = " "
     if currentblock == 'gotoXy':
         global codeparse
         daX = AllScripts[codeparse+1]
@@ -38,6 +39,13 @@ def convert_block():
         daY = int(daY)+352
         codetoadd = "x = "+str(daX)+";\ny = "+str(daY)+";\n"
         add_to_script()
+    if currentblock == 'stopScripts':
+        if AllScripts[codeparse+1] == "all":
+            codetoadd = "game_end();"
+            add_to_script()
+    if codetoadd == "":
+        if writingin != "":
+            writingin = ""
 if ("objName" in gamecode):
     spritemetadata = "";
     soundmetadata = "";

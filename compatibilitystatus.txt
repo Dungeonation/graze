@@ -11,6 +11,7 @@ Go To X+Y
 
 [Control]
 When Green Flag Clicked
+Stop All (closes the game in GameMaker)
 
 [Sensing]
 
