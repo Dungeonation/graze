@@ -39,6 +39,8 @@ def convert_block():
         daY = int(daY)+352
         codetoadd = "x = "+str(daX)+";\ny = "+str(daY)+";\n"
         add_to_script()
+    if currentblock == "all":
+        codetoadd = " "
     if currentblock == 'stopScripts':
         if AllScripts[codeparse+1] == "all":
             codetoadd = "game_end();"
