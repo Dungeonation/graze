@@ -23,6 +23,8 @@ def add_to_script():
             greenflag += codetoadd
 def convert_block():
     global codetoadd
+    global i
+    global codeparse
     global writingin
     codetoadd = ""
     #gotta figure out how to do this block lmao
@@ -32,18 +34,19 @@ def convert_block():
         writingin = "whenGreenFlag"
         codetoadd = " "
     if currentblock == 'gotoXy':
-        global codeparse
         daX = AllScripts[codeparse+1]
         daX = int(daX)+480
         daY = AllScripts[codeparse+2]
         daY = int(daY)+352
         codetoadd = "x = "+str(daX)+";\ny = "+str(daY)+";\n"
+        codeparse += 2
+        i -= 2
         add_to_script()
-    if currentblock == "all":
-        codetoadd = " "
     if currentblock == 'stopScripts':
         if AllScripts[codeparse+1] == "all":
             codetoadd = "game_end();"
+            i -= 1
+            codeparse += 1
             add_to_script()
     if codetoadd == "":
         if writingin != "":
@@ -178,6 +181,7 @@ if ("objName" in gamecode):
                     global writingin
                     writingin = ""
                     ScriptAmount = len(AllScripts)
+                    global i
                     for i in range (ScriptAmount):
                         currentblock = AllScripts[codeparse]
                         convert_block()
