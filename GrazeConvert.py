@@ -24,12 +24,31 @@ def add_to_script():
 def convert_block():
     global codetoadd
     global i
+    global countamount
     global codeparse
     global writingin
     codetoadd = ""
-    #gotta figure out how to do this block lmao
-    #if currentblock == 'doRepeat':
-    #    repeatfor = int(AllScripts[codeparse+1])
+    if currentblock == 'changeXposBy':
+        xchange = int(AllScripts[codeparse+1])
+        codetoadd = "x += "+str(xchange)+";"
+        codeparse += 1
+        i -= 1
+        add_to_script()
+    if currentblock == 'changeYposBy':
+        ychange = int(AllScripts[codeparse+1])
+        codetoadd = "y += "+str(ychange)+";"
+        codeparse += 1
+        i -= 1
+        add_to_script()
+    if currentblock == 'waitelapsedfrom':
+        waitfor = int(AllScripts[codeparse+1])
+        waitfor = int(30*waitfor)
+        waitfor = float(format(int(waitfor), '.1f')) 
+        codetoadd = "count_"+str(countamount)+" = 0\nwhile (count_"+str(countamount)+" < "+str(waitfor)+"){\ncount_"+str(countamount)+" += 1\n}"
+        countamount += 1
+        codeparse += 1
+        i -= 1
+        add_to_script()
     if currentblock == 'whenGreenFlag':
         writingin = "whenGreenFlag"
         codetoadd = " "
@@ -173,6 +192,8 @@ if ("objName" in gamecode):
                     AllScripts = AllScripts.split()
                     global codeparse
                     global codetoadd
+                    global countamount
+                    countamount = 1
                     codeparse = 0
                     global eventtype
                     global enumb
