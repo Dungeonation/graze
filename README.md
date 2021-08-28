@@ -21,6 +21,8 @@ A fresh download has the empty GameMaker project folder unzipped in the main fol
 ###### GrazeConvert.py  
 Running this in Python immediately begins the conversion process, and runs until finished or encountering an error, then prompting you to press any key to halt the program. *Don't run it if you're not ready!*  
 If you run it in the command line instead of within the Python shell, and instead of an error handler in the code itself it just crashes - it'll just close instead of telling you I think. Run it in the Python shell to get a crash report.
+###### GrazeTesting.py
+For outputting parsed JSON.
 ###### scratchproject  
 This folder is what Graze refers to for the unzipped Scratch project that you wish to convert. Take your Scratch 2.0 (.sb2) file and change the file extension to *.zip* (dunno how to do that? Look up how to show file extensions in file names in your version of Windows or whatever, then you can type in a new file extension when renaming the file. Ignore warnings from doing so), then unzip it into the *scratchproject* folder. Everything in that folder should just be your unzipped Scratch project for conversion, and also keep a backup of the original .sb2 file!!
 ###### FinishedGame.gmx
