@@ -38,4 +38,4 @@ Graze is licensed under the *GNU General Public License v3.0*. GameMaker is copy
 Contributions from everyone are welcome! Any contribution submitted for inclusion in Graze consents to being included and being under the same license as Graze.  
 An unzipped *.sb2* file is all the sprites and sounds the Scratch project uses numbered, as well as the all-important **project.json** which contains all the information on the project and its code.  
 Scratch has us covered on documentation on the .sb2 file format and its .json, that can be found [here](https://en.scratch-wiki.info/wiki/Scratch_File_Format_(2.0)).  
-The goal of Graze is to mimic the behavior of the original Scratch project as *close* as possible in GameMaker without undesired behavior after conversion. Some functions of Scratch such as Extensions other than Pen and Cloud Variables, will not be able to be supported in Graze.
+The goal of Graze is to mimic the behavior of the original Scratch project as *close* as possible in GameMaker without undesired behavior after conversion. Some functions of Scratch such as Extensions and Cloud Variables, will not be able to be supported in Graze.
