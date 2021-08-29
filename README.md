@@ -5,10 +5,15 @@
 
 Only Scratch 2.0 projects are supported right now but Scratch 3.0 support is possible as it's just a different .json format, and will happen in the future.
 
-*Contributing to or testing the tool in its current in-development state requires **Python 3.8** or greater. As of this version of Graze you will also need these Python libraries:*  
-* json
-* PIL
-* pathlib
+# Setup
+
+*Contributing to or testing the tool in its current in-development state requires **Python 3.8** or greater.*
+
+Install Python dependancies from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
 
 # Project Status
 As of the GitHub release in *August 2021* Graze can only convert over sprites and sounds and establish variables, and is in the beginning stages of converting code. Check **changelog.txt** frequently as development continues. **To check to see if your Scratch project is compatible**, also check **compatibilitystatus.txt** for the status of Scratch block support in Graze.
